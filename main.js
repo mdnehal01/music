@@ -1,7 +1,7 @@
 // FIRST SONG////////////////////////////////////
 
 
-const audioSrcOne = "music/readyforit.mp3"; // Replace with the actual path to your audio file
+const audioSrcOne = "readyforit.mp3"; // Replace with the actual path to your audio file
 const audioOne = new Audio(audioSrcOne);
 
 
@@ -61,7 +61,7 @@ one_pause.addEventListener("dblclick", dblclickOne);
 // Second SONG////////////////////////////////////
 
 
-const audioSrctwo = "music/eastside.mp3"; // Replace with the actual path to your audio file
+const audioSrctwo = "eastside.mp3"; // Replace with the actual path to your audio file
 const audiotwo = new Audio(audioSrctwo);
 
 
@@ -131,7 +131,7 @@ two_pause.addEventListener("dblclick", dblclicktwo);
 // Third SONG////////////////////////////////////
 
 
-const audioSrcthree = "music/slowgrenade.mp3"; // Replace with the actual path to your audio file
+const audioSrcthree = "slowgrenade.mp3"; // Replace with the actual path to your audio file
 const audiothree = new Audio(audioSrcthree);
 
 
@@ -192,7 +192,7 @@ three_pause.addEventListener("dblclick", dblclickthree);
 // Fourth SONG////////////////////////////////////
 
 
-const audioSrcfour = "music/mine.mp3"; // Replace with the actual path to your audio file
+const audioSrcfour = "mine.mp3"; // Replace with the actual path to your audio file
 const audiofour = new Audio(audioSrcfour);
 
 
@@ -251,7 +251,7 @@ four_pause.addEventListener("dblclick", dblclickfour);
 // Fifth SONG////////////////////////////////////
 
 
-const audioSrcfive = "music/notsadanymore.mp3"; // Replace with the actual path to your audio file
+const audioSrcfive = "notsadanymore.mp3"; // Replace with the actual path to your audio file
 const audiofive = new Audio(audioSrcfive);
 
 
@@ -307,7 +307,7 @@ five_pause.addEventListener("dblclick", dblclickfive);
 // SIXTH SONG////////////////////////////////////
 
 
-const audioSrcsix = "music/withoutme.mp3"; // Replace with the actual path to your audio file
+const audioSrcsix = "withoutme.mp3"; // Replace with the actual path to your audio file
 const audiosix = new Audio(audioSrcsix);
 
 
@@ -365,7 +365,7 @@ six_pause.addEventListener("dblclick", dblclicksix);
 // SEVENTH SONG////////////////////////////////////
 
 
-const audioSrcseven = "music/idgaf.mp3"; // Replace with the actual path to your audio file
+const audioSrcseven = "idgaf.mp3"; // Replace with the actual path to your audio file
 const audioseven = new Audio(audioSrcseven);
 
 
