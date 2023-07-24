@@ -1,0 +1,489 @@
+		body{
+                    background-color:#010101;
+                    color:white;
+                    font-family:"Montserrat";
+                    padding: 0;
+                    margin: 0;
+                  }
+
+
+/* Left Portion CSS */
+                  
+                  #left{
+                  background-color:#010100;
+                  height:100%;
+                  width:25%;
+                  position: fixed;
+                  float: left;
+                  margin-left: 10px;
+                  margin-top: 10px;
+                  margin-right: 10px;
+                  margin-bottom: 10px;
+                  }
+                  
+                  #left-up{
+                  background-color: #131312;
+                  width: 100%;
+                  height: 15%;
+                  border-radius:10px;
+                  float: left;
+                  }
+
+                  #left-down{
+                        background-color:#131312;
+                        height: 85%;
+                        width: 100%;
+                        margin-top:10px;
+                        float: left;
+                        border-radius:10px;
+                  }
+
+                  #row1{
+                        background-color: #242424;
+                        width: 91.5%;
+                        height: 150px;
+                        margin-top: 70px;
+                        margin-left: 10px;
+                        padding:20px 0px 0px 20px;
+                        border-radius:10px;
+                  }
+                  
+                  #row2{
+                  background-color: #242424;
+                        width: 91.5%;
+                        height: 150px;
+                        margin-top: 30px;
+                        margin-left: 10px;
+                        padding:20px 0px 0px 20px;
+                        border-radius:10px;
+                  }
+
+
+                  .home{
+                        width: 90%;
+                        height: 50%;
+                        font-size: 20px;
+                        border:none;
+                        background-color: #131312;
+                        color: white;
+                        float: left;
+                        text-align: left;
+                        margin-left: 30px;
+                  }
+
+                  .home:hover{
+                        cursor: pointer;
+                  }
+
+                  .search{
+                        width: 90%;
+                        height: 50%;
+                        border: none;
+                        background-color: #131312;
+                        color: grey;
+                        float: left;
+                        font-size: 20px;
+                        text-align: left;
+                        margin-left: 30px;
+                  }
+
+                  .search:hover{
+                        width: 90%;
+                        height: 50%;
+                        border: none;
+                        background-color: #131312;
+                        color: white;
+                        float: left;
+                        font-size: 20px;
+                        cursor: pointer;
+                  }
+                  
+                  #row0{
+                        width:90%;
+                        height:30px;
+                        padding:0px 20px;
+                  }
+                  
+                  #row0 a:hover{
+                  color:white;
+                  }
+                  
+                  #row0 a{
+                  text-decoration:none;
+                  color:#A7A7A7;
+                  }
+                  
+                  
+                  #lib-icon{
+                  margin-top:20px;
+                  float:left;
+                
+                  }
+                  
+                  #your-lib{
+                  float:left;
+                  margin-top:20px;
+                  }
+                  
+                  #create-playlist{
+                  height:30px;
+                  width:30px;
+                  float:right;
+                  border-radius:2000px;
+                  margin-top:20px;
+                  text-align:center;
+                  color: #a7a7a7;
+                  }
+                  
+                  #create-playlist:hover{
+                  float:right;
+                  background-color:#000;
+                  color:white;
+                  }
+                  
+                  .create-playlist{
+                  width:150px;
+                  height:35px;
+                  border-radius:2000px;
+                  font-size:15px;
+                  border:none;
+                  }
+                  
+                  .create-playlist:hover{
+                  width:155px;
+                  height:37px;
+                  border-radius:2000px;
+                  font-size:16px;
+                  cursor:pointer;
+                  }
+                  
+                  
+                  .browse-podcast{
+                  width:160px;
+                  height:35px;
+                  border-radius:2000px;
+                  font-size:15px;
+                  border:none;
+                  }
+                  
+                  .browse-podcast:hover{
+                  width:165px;
+                  height:37px;
+                  border-radius:2000px;
+                  font-size:16px;
+                  cursor:pointer;
+                  }
+                  
+                  .btn-language{
+                  width:100px;
+                  height:35px;
+                  background-color:#131312;
+                  color:white;
+                  border:1px solid #a7a7a7;
+                  border-radius:300px;
+                  cursor:pointer;
+                  margin-left:10px;
+                  font-size:15px;
+                  }
+                  
+                  .btn-language:hover{
+                  width:105px;
+                  height:36px;
+                  background-color:#131312;
+                  color:white;
+                  border:1px solid #fff;
+                  border-radius:300px;
+                  cursor:pointer;
+                  margin-left:10px;
+                  font-size:16px;
+                  }
+                  
+                  
+                  #left-footer{
+                  width:98%;
+                  height:200px;
+                  margin-top:140px;
+                  padding-left:10px;
+                  border-radius:10px;
+                  }  
+                  
+                  #left-footer a{
+                  text-decoration:none;
+                  font-size:12.5px;
+                  padding-left:10px;
+                  color:#A7A7A7;
+                  font-weight:500;
+                  }
+                  
+                  #left-footer a .cookies{
+                  text-decoration:none;
+                  font-size:12.5px;
+                  padding-left:10px;
+                  color:#A7A7A7;
+                  font-weight:500;
+                  }
+                  #left-footer a .cookies:hover{
+                  text-decoration:underline;
+                  }
+
+/* LEFT PORTION CSS COMPLETE */
+
+
+#right-parent{
+      background-color:#000000;
+      height:auto;
+      width:100%;
+}
+
+#right{
+      width: 74%;
+      float: right;
+      height: 1000px;
+      background-color: #000000;
+      border-radius: 10px;
+}
+
+#header{
+      margin-top: 10px;
+      width: 100%;
+      height: 75px;
+      background-color: #101010;
+      border-radius: 8px 8px 0px 0px;
+      position: fixed;
+      float: left;
+      opacity: 90%;
+}
+
+#header-div{
+      height: 85px;
+      width: 100%;
+      background-color: #000;
+      margin: 0;
+      padding: 0;
+      position: fixed;
+      opacity: 90%;
+}
+
+
+.forward-backward-button-div{
+      height:30px;
+      width: 100px;
+      margin: 20px;
+      float: left;
+      /* background-color: aliceblue; */
+}
+
+.forward-backward-button{
+      height: 30px;
+      width: 30px;
+      border: none;
+      border-radius: 200px;
+      background-color: black;
+}
+
+.signup-login{
+      /* background-color: rgb(140, 141, 137); */
+      width:300px;
+      height: 50px;
+      margin-top: 10px;
+      float: left;
+      margin-left: 980px;
+}
+
+.signup-login a{
+      text-decoration: none;
+      color: #A7A7A7;
+}
+.login{
+      width:110px;
+      height:45px;
+      border-radius:2000px;
+      font-size:15px;
+      border:none;
+      cursor: pointer;
+}
+
+.login:hover{
+      width:111px;
+      height:46px;
+      border-radius:2000px;
+      border:none;
+      cursor: pointer;
+      font-size: 16px;
+}
+
+/* RIGHT BODY PART */
+#right-body{
+      width:95.2%;
+      height: 100%;
+      background-image: linear-gradient(to bottom, #202020,#0D0D0D);
+      border-radius: 8px 8px 8px 8px;
+      padding: 100px 30px;
+} 
+
+#right-body .an{
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+}
+
+#right-body .an:hover{
+      color: white;
+      font-size: 20px;
+      text-decoration:underline;
+}
+
+#right-play1{
+      width: 100%;
+      height: 250px;
+      /* background-image: linear-gradient( rgb(14, 13, 13) , rgb(34, 34, 34)); */
+      /* background-color: bisque; */
+      margin-top: 50px;
+}
+
+.song{
+      background-image: linear-gradient(#161616, #181818);
+      width: 167.5px;
+      height: 100%;
+      margin-right: 20px;
+      float: left;
+      border-radius: 7px;
+      cursor: pointer;
+}
+
+.song:hover{
+      background-image: linear-gradient(#282828,#222222);
+      width: 167.5px;
+      height: 100%;
+      margin-right: 20px;
+      float: left;
+      border-radius: 7px;
+}
+
+.song1{
+      background-image: linear-gradient(#161616, #181818);
+      width: 167.5px;
+      height: 100%;
+      /* margin-right: 20px; */
+      float: left;
+      border-radius: 7px;
+      cursor: pointer;
+}
+
+.song1:hover{
+      background-image: linear-gradient(#282828,#222222);
+      width: 167.5px;
+      height: 100%;
+      /* margin-right: 20px; */
+      float: left;
+}
+
+.one{
+      background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cf312bc5-ee1a-4612-8a06-1e4e5c1c83a1/ddvpzou-289654d3-0b13-4c29-982e-e41a17392030.png/v1/fill/w_600,h_600,q_80,strp/taylor_swift______ready_for_it___single_cover__by_marilyncola_ddvpzou-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NmMzEyYmM1LWVlMWEtNDYxMi04YTA2LTFlNGU1YzFjODNhMVwvZGR2cHpvdS0yODk2NTRkMy0wYjEzLTRjMjktOTgyZS1lNDFhMTczOTIwMzAucG5nIiwiaGVpZ2h0IjoiPD02MDAiLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLndhdGVybWFyayJdLCJ3bWsiOnsicGF0aCI6Ilwvd21cL2NmMzEyYmM1LWVlMWEtNDYxMi04YTA2LTFlNGU1YzFjODNhMVwvbWFyaWx5bmNvbGEtNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.yJbOQ_t4TCbE7lOX04_l0tGZP9Ya6OOLBdvMeRVb2b0");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 132px;
+      width: 132px;
+      margin-left: 18px;
+      margin-top: 18px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 15px black;
+}
+
+.two{
+      background-image: url("https://i1.sndcdn.com/artworks-000440024154-xtcsjg-t500x500.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 132px;
+      width: 132px;
+      margin-left: 18px;
+      margin-top: 18px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 15px black;
+}
+
+.three{
+      background-image: url("https://radio.callmefred.com/en/wp-content/uploads/2023/05/final_cover-Slow-Grenade-Ellie-Goulding.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 132px;
+      width: 132px;
+      margin-left: 18px;
+      margin-top: 18px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 15px black;
+}
+
+.four{
+      background-image: url("https://i1.sndcdn.com/artworks-000289210775-puihm3-t500x500.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 132px;
+      width: 132px;
+      margin-left: 18px;
+      margin-top: 18px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 15px black;
+}
+
+.five{
+      background-image: url("https://naijafinix.com/wp-content/uploads/2021/09/Clara-Mae-Not-Sad-Anymore.jpg");
+      background-size: cover;
+      height: 132px;
+      width: 132px;
+      margin-left: 18px;
+      margin-top: 18px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 15px black;
+}
+
+.six{
+      background-image: url("https://m.media-amazon.com/images/M/MV5BZjE4ODllODctOGJkNy00N2MzLWJlYzYtNThlYmNhZjFiY2I2XkEyXkFqcGdeQXVyOTYxMzA0Mzk@._V1_.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 132px;
+      width: 132px;
+      margin-left: 18px;
+      margin-top: 18px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 15px black;
+}
+
+.seven{
+      background-image: url("https://a10.gaanacdn.com/gn_img/albums/koMWQBbqLE/oMWQMdmMWq/size_l.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 132px;
+      width: 132px;
+      margin-left: 18px;
+      margin-top: 18px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 15px black;
+}
+
+.song-name{
+      margin-left: 20px;
+}
+
+#music-play{
+      background-color: #1ED760;
+      height: 50px;
+      width: 50px;
+      border-radius: 30px;
+      margin-left: 80px;
+      margin-top: 80px;
+      position: absolute;
+      box-shadow: 2px 2px 12px black;
+
+      .icon{
+            /* position: absolute; */
+            margin-left: 20px;
+            margin-top: 16px;
+            font-size: 18px;
+      }
+}
+
+audio{
+      height: 10px;
+      width: 20px;
+}
